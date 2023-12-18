@@ -3,9 +3,13 @@ body {
 }
 
 .question {
-    position: absolute;
-    top: 20%;
-    left: 39%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.button-container {
+    position: relative;
+    text-align: center; /* Pour centrer les boutons horizontalement */
 }
 
 .yes {
@@ -13,8 +17,8 @@ body {
     background-color: #e02209;
     border-radius: 30px;
     color: white;
-    top: 40%;
-    left: 42%;
+    top: 50%;
+    left: 40%;
     padding: 15px 32px;
     font-size: 16px;
 }
@@ -25,4 +29,7 @@ body {
     color: white;
     padding: 15px 32px;
     font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Position initiale du bouton "Non" par rapport au conteneur */
 }
