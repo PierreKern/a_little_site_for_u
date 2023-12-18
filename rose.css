@@ -1,0 +1,28 @@
+body {
+    background-color: pink;
+}
+
+.question {
+    position: absolute;
+    top: 20%;
+    left: 39%;
+}
+
+.yes {
+    position: absolute;
+    background-color: #e02209;
+    border-radius: 30px;
+    color: white;
+    top: 40%;
+    left: 42%;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+.no {
+    background-color: #e02209;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+}
