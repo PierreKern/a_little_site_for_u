@@ -1,15 +1,22 @@
+@font-face {
+	font-family: 'Roses';
+	src: url("roses.ttf") format("opentype"),
+}
+
 body {
-    background-color: pink;
+    background-color: rgb(253, 108, 158);
 }
 
 .question {
+    font-family: "Roses";
+    font-size: 64px;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .button-container {
     position: relative;
-    text-align: center; /* Pour centrer les boutons horizontalement */
+    text-align: center;
 }
 
 .yes {
@@ -31,5 +38,5 @@ body {
     font-size: 16px;
     position: absolute;
     top: 50%;
-    left: 50%; /* Position initiale du bouton "Non" par rapport au conteneur */
+    left: 50%;
 }
