@@ -28,6 +28,7 @@ body {
     left: 40%;
     padding: 15px 32px;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .no {
@@ -39,4 +40,14 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+.yes:hover {
+    transition : 1000ms;
+    padding: 10px 37px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #000000;
+    border: solid 2px black;
+
 }
